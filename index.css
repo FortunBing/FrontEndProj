@@ -6,6 +6,12 @@
     z-index: -1;
 }
 
+.carousel-inner video {
+    margin: auto;
+    padding-top: 30px;
+  } 
+
+
 /* rule is used in media queries to apply different styles for different media types/devices */
 /* aspect-ratio test the aspect ratio of the viewport(area of the computer graphics being currently viewed i.e. screen size)  */
 
@@ -25,13 +31,13 @@
 }
 
 #liveToastBtn{
-color: black;
-font-size: 20px;
+    color: black;
+    font-size: 20px;
 }
 
 img{
- width: 30%;
- height: 30%;
+    width: 20%;
+    height: 30%;
 }
 
 .toast-body{
@@ -93,7 +99,6 @@ what is being changed is specified in the from-to*/
                         0 0 10px #0bebeb;
     }
 }
-
 
 .accordion-collapse {
     background: -webkit-linear-gradient(75deg, #81b1e9, #99284a);

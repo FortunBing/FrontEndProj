@@ -23,7 +23,7 @@
     <!--makes button that dismisses alert automatically after a few seconds-->
     <button type="button" class="btn btn-primary bg-warning border-dark" id="liveToastBtn">Click Me!</button>
     
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div class="toast-container position-fixed top-0 end-0 p-2">
       <div id="liveToast" class="toast bg-warning border-dark" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
           <img src="C:\Users\fortg\Desktop\BingCoding\FrontEnd\pool.jpg" class="rounded me-2" alt="dpool">
@@ -40,7 +40,8 @@
     <div>
     <p class="joke"></p>
     </div>
-
+    
+      <!-- bootstrap accordion with quotes -simple- -->
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
@@ -73,6 +74,37 @@
           </div>
         </div>
       </div>
+
+      <!-- carousel with video instead of image CSS aligns it to bottom of screen -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <video autoplay loop muted plays-inline class="firstvid d-block w-25">
+              <source src="C:\Users\fortg\Desktop\BingCoding\FrontEnd\justdoit .mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <video autoplay loop muted plays-inline class="firstvid d-block w-25">
+              <source src="C:\Users\fortg\Desktop\BingCoding\FrontEnd\rocky.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <video autoplay loop muted plays-inline class="firstvid d-block w-25">
+              <source src="C:\Users\fortg\Desktop\BingCoding\FrontEnd\dance.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
 
     <script src="index.js"></script>
     
